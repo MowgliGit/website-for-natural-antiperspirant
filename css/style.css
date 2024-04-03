@@ -1,0 +1,56 @@
+body{
+    background-color: #333;
+    color: #2a7da7;
+    overflow-x: hidden;
+}
+.navbar{
+    border-bottom: #4b9ac2 3px solid;
+    opacity: 0.8;
+}
+
+i{
+    padding: 5px;
+    background: #b7b7b7;
+    opacity: 0.7;
+    border-radius: 5px;
+}
+.btn-blue{
+    background-color: #4b9ac2;
+}
+.btn-blue:hover{
+    background-color: #fff;
+}
+
+#home-section{
+    background: url(/img/home.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 700px;
+    position: relative;
+    margin-top: 50px;
+}
+.dark-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 700px;
+    background: rgba(0, 0, 0, 0.8); 
+}
+#home-section .home-inner{
+    padding-top: 70px;
+}
+#products,
+#about,
+#contact{
+    background: #2880ac!important;
+    color: #333;
+}
+
+.card-form{
+    opacity: 0.7;
+}
+
+
+

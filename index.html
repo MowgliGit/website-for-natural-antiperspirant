@@ -1,338 +1,396 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="/css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/style.css" />
     <title>Document</title>
-</head>
-<body data-spy="scroll" data-target="#main-nav" id="home">
+  </head>
+  <body data-spy="scroll" data-target="#main-nav" id="home">
     <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top" id="main-nav">
-        <div class="container">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button class="navbar-toggler" data-toggle="collapse"
-          data-target="#navbarCollapse">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-        </div>
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                <a class="nav-link active" href="#home-section">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#products">Products</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#about">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#contact">Contact</a>
-              </li>
-            </ul>
-        </div>
-      </nav>
-      <!-- HOME SECTION -->
-      <header id="home-section" class="text-info">
-        <div class="dark-overlay">
-            <div class="home-inner container">
-                    <div class="row">
-                    <div class="col-lg-8 d-none d-lg-block">
-                        <h1 class="display-4">
-                            Why Switching to <strong>Natural Deodorant</strong> 
-                            Is Good For Your Health?
-                        </h1>
-                        <div class="d-flex">
-                            <div class="p-1 align-self-start mr-3">
-                                <i class="fa-solid fa-check"></i>
-                            </div>
-                            <div class="p-1 align-self-end">
-                                <p class="lead">
-                                    You Need to Sweat 
-                                </p>
-                            </div>
-                        </div>
-                        <div class="d-flex">
-                            <div class="p-1 align-self-start mr-3">
-                                <i class="fa-solid fa-check"></i>
-                            </div>
-                            <div class="p-1 align-self-end">
-                                <p class="lead">
-                                    No white marks on your clothes 
-                                </p>
-                            </div>
-                        </div>
-                        <div class="d-flex">
-                            <div class="p-1 align-self-start mr-3">
-                                <i class="fa-solid fa-check"></i>
-                            </div>
-                            <div class="p-1 align-self-end">
-                                <p class="lead">
-                                    100% natural ingredients
-                                </p>
-                            </div>
-                        </div>
-                        <div class="d-flex">
-                            <div class="p-1 align-self-start mr-3">
-                                <i class="fa-solid fa-check"></i>
-                            </div>
-                            <div class="p-1 align-self-end">
-                                <p class="lead">
-                                    Long-lasting protection from body odour
-                                </p>
-                            </div>
-                        </div>
-                        <div class="d-flex">
-                            <div class="p-1 align-self-start mr-3">
-                                <i class="fa-solid fa-check"></i>
-                            </div>
-                            <div class="p-1 align-self-end">
-                                <p class="lead">
-                                    Allows your skin to breathe
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="card bg-dark text-center">
-                            <div class="card-body">
-                                <h3>Sign up today</h3>
-                                <p>Pliss fill out this form to register!</p>
-                                <form>
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" placeholder="Username">
-                                    </div>
-                                    <div class="form-group">
-                                        <input type="email" class="form-control" placeholder="Email">
-                                    </div>
-                                    <div class="form-group">
-                                        <input type="password" class="form-control" placeholder="Password">
-                                    </div>
-                                    <div class="form-group">
-                                        <input type="password" class="form-control" placeholder="Confirm your password">
-                                    </div>
-                                    <input type="submit" value="Submit" class="btn btn-outline-white btn-blue btn-block" data-toggle="button">
-                                </form>
-                            </div>
-                        </div>
-                    </div>
+    <nav
+      class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top"
+      id="main-nav"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button
+          class="navbar-toggler"
+          data-toggle="collapse"
+          data-target="#navbarCollapse"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="#home-section">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#products">Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- HOME SECTION -->
+    <header id="home-section" class="text-info">
+      <div class="dark-overlay">
+        <div class="home-inner container">
+          <div class="row">
+            <div class="col-lg-8 d-none d-lg-block">
+              <h1 class="display-4">
+                Why Switching to <strong>Natural Deodorant</strong>
+                Is Good For Your Health?
+              </h1>
+              <div class="d-flex">
+                <div class="p-1 align-self-start mr-3">
+                  <i class="fa-solid fa-check"></i>
                 </div>
+                <div class="p-1 align-self-end">
+                  <p class="lead">You Need to Sweat</p>
+                </div>
+              </div>
+              <div class="d-flex">
+                <div class="p-1 align-self-start mr-3">
+                  <i class="fa-solid fa-check"></i>
+                </div>
+                <div class="p-1 align-self-end">
+                  <p class="lead">No white marks on your clothes</p>
+                </div>
+              </div>
+              <div class="d-flex">
+                <div class="p-1 align-self-start mr-3">
+                  <i class="fa-solid fa-check"></i>
+                </div>
+                <div class="p-1 align-self-end">
+                  <p class="lead">100% natural ingredients</p>
+                </div>
+              </div>
+              <div class="d-flex">
+                <div class="p-1 align-self-start mr-3">
+                  <i class="fa-solid fa-check"></i>
+                </div>
+                <div class="p-1 align-self-end">
+                  <p class="lead">Long-lasting protection from body odour</p>
+                </div>
+              </div>
+              <div class="d-flex">
+                <div class="p-1 align-self-start mr-3">
+                  <i class="fa-solid fa-check"></i>
+                </div>
+                <div class="p-1 align-self-end">
+                  <p class="lead">Allows your skin to breathe</p>
+                </div>
+              </div>
             </div>
-        </div>
-      </header>
-      <!-- PRODUCTS -->
-      <section id="products" class="text-dark bg-info">
-        <div class="container">
-            <div class="row">
-                <div class="col py-5 text-center">
-                    <h3> Essential ingredients for the best natural deodorant.</h3>
-                    <p class="lead">
-                        A great natural deodorant formula should 
-                        be a combination of two things: a serving of delicious 
-                        botanical fragrance on the left and on the right, a cocktail 
-                        of natural anti-bacterial compounds.
-                     </p>
-                     <button href="#" class="btn btn-secondary text-dark font-weight-bold">Find out more</button>
+            <div class="col-lg-4">
+              <div class="card bg-dark text-center">
+                <div class="card-body">
+                  <h3>Sign up today</h3>
+                  <p>Pliss fill out this form to register!</p>
+                  <form>
+                    <div class="form-group">
+                      <input
+                        type="text"
+                        class="form-control"
+                        placeholder="Username"
+                      />
+                    </div>
+                    <div class="form-group">
+                      <input
+                        type="email"
+                        class="form-control"
+                        placeholder="Email"
+                      />
+                    </div>
+                    <div class="form-group">
+                      <input
+                        type="password"
+                        class="form-control"
+                        placeholder="Password"
+                      />
+                    </div>
+                    <div class="form-group">
+                      <input
+                        type="password"
+                        class="form-control"
+                        placeholder="Confirm your password"
+                      />
+                    </div>
+                    <input
+                      type="submit"
+                      value="Submit"
+                      class="btn btn-outline-white btn-blue btn-block"
+                      data-toggle="button"
+                    />
+                  </form>
                 </div>
+              </div>
             </div>
+          </div>
         </div>
-      </section>
-      <section>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 py-5 mt-4 d-block">
-                    <img src="/img/products.jfif" alt="products" class="img-fluid rounded-circle">
-                </div>
-                <div class="col-md-6 py-5 text-info">
-                    <h2 class="py-2">
-                        We've included a few 
-                        key ingredients
-                    </h2>
-                    <p>
-                        We use natural proven ingredients 
-                        that have history on their side.
-                    </p>
-                    <div class="d-flex">
-                        <div class="p-2 align-self-center">
-                            <i class="fa-solid fa-check"></i>
-                        </div>
-                        <div>
-                            <p class="p-2 lead text-mutted align-self-end">
-                                Sodium Bikarbonate
-                            </p>
-                        </div>
-                    </div>
-                    <div class="d-flex">
-                        <div class="p-2 align-self-center">
-                            <i class="fa-solid fa-check"></i>
-                        </div>
-                        <div>
-                            <p class="p-2 lead text-mutted align-self-end">
-                                Lavender
-                            </p>
-                        </div>
-                    </div>
-                    <div class="d-flex">
-                        <div class="p-2 align-self-center">
-                            <i class="fa-solid fa-check"></i>
-                        </div>
-                        <div>
-                            <p class="p-2 lead text-mutted align-self-end">
-                                Aloe Vera
-                            </p>
-                        </div>
-                    </div>
-                </div>
+      </div>
+    </header>
+    <!-- PRODUCTS -->
+    <section id="products" class="text-dark bg-info">
+      <div class="container">
+        <div class="row">
+          <div class="col py-5 text-center">
+            <h3>Essential ingredients for the best natural deodorant.</h3>
+            <p class="lead">
+              A great natural deodorant formula should be a combination of two
+              things: a serving of delicious botanical fragrance on the left and
+              on the right, a cocktail of natural anti-bacterial compounds.
+            </p>
+            <button
+              href="#"
+              class="btn btn-secondary text-dark font-weight-bold"
+            >
+              Find out more
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 py-5 mt-4 d-block">
+            <img
+              src="/img/products.jfif"
+              alt="products"
+              class="img-fluid rounded-circle"
+            />
+          </div>
+          <div class="col-md-6 py-5 text-info">
+            <h2 class="py-2">We've included a few key ingredients</h2>
+            <p>
+              We use natural proven ingredients that have history on their side.
+            </p>
+            <div class="d-flex">
+              <div class="p-2 align-self-center">
+                <i class="fa-solid fa-check"></i>
+              </div>
+              <div>
+                <p class="p-2 lead text-mutted align-self-end">
+                  Sodium Bikarbonate
+                </p>
+              </div>
             </div>
-        </div>
-      </section>
-      <section id="about" class="text-dark bg-info">
-        <div class="container">
-            <div class="row">
-                <div class="col text-center py-5">
-                    <h3>
-                        Important Things To Discover About 
-                        Natural Deodorant
-                    </h3>
-                    <p class="lead">
-                        Below are some top considerations when replacing commercial 
-                        antiperspirants with a deodorant produced by natural 
-                        deodorant manufacturers or for brands 
-                        looking to market their own private-label deodorant.
-                    </p>
-                    <button href="#" class="btn btn-dark">Find out more</button>
-                </div>
+            <div class="d-flex">
+              <div class="p-2 align-self-center">
+                <i class="fa-solid fa-check"></i>
+              </div>
+              <div>
+                <p class="p-2 lead text-mutted align-self-end">Lavender</p>
+              </div>
             </div>
-        </div>
-      </section>
-      <section>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 py-5 text-info">
-                    <h2 class="py-2">
-                        What consumers should know about Natural Deodorant?
-                    </h2>
-                    <p>
-                    </p>
-                    <div class="d-flex">
-                        <div class="p-2 align-self-center">
-                            <i class="fa-solid fa-check"></i>
-                        </div>
-                        <div>
-                            <p class="p-2  lead text-mutted align-self-end">
-                                Natural Deodorants are safer than regular antiperspirants
-                            </p>
-                        </div>
-                    </div>
-                    <div class="d-flex">
-                        <div class="p-2  align-self-center">
-                            <i class="fa-solid fa-check"></i>
-                        </div>
-                        <div>
-                            <p class="p-2 lead text-mutted align-self-end">
-                                Natural deodorant can be gantle to the skil
-                            </p>
-                        </div>
-                    </div>
-                    <div class="d-flex">
-                        <div class="p-2 align-self-center">
-                            <i class="fa-solid fa-check"></i>
-                        </div>
-                        <div>
-                            <p class="p-2  lead text-mutted align-self-end">
-                                Natural deodorants match a healthy lifestyle
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 py-5 mt-4 d-block">
-                    <img src="/img/about.webp" alt="products" class="img-fluid rounded-circle">
-                </div>
+            <div class="d-flex">
+              <div class="p-2 align-self-center">
+                <i class="fa-solid fa-check"></i>
+              </div>
+              <div>
+                <p class="p-2 lead text-mutted align-self-end">Aloe Vera</p>
+              </div>
             </div>
+          </div>
         </div>
-      </section>
-      <footer id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col text-center py-4">
-                    <h3>Natural Dedorant</h3>
-                    <p>CopyRight &copy; 
-                        <span id="year"></span>
-                    </p>
-                    <button class="btn btn-dark" data-toggle="modal" 
-                    data-target="#contactModal">Contact Us</button>
-                </div>
+      </div>
+    </section>
+    <section id="about" class="text-dark bg-info">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center py-5">
+            <h3>Important Things To Discover About Natural Deodorant</h3>
+            <p class="lead">
+              Below are some top considerations when replacing commercial
+              antiperspirants with a deodorant produced by natural deodorant
+              manufacturers or for brands looking to market their own
+              private-label deodorant.
+            </p>
+            <button href="#" class="btn btn-dark">Find out more</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 py-5 text-info">
+            <h2 class="py-2">
+              What consumers should know about Natural Deodorant?
+            </h2>
+            <p></p>
+            <div class="d-flex">
+              <div class="p-2 align-self-center">
+                <i class="fa-solid fa-check"></i>
+              </div>
+              <div>
+                <p class="p-2 lead text-mutted align-self-end">
+                  Natural Deodorants are safer than regular antiperspirants
+                </p>
+              </div>
             </div>
+            <div class="d-flex">
+              <div class="p-2 align-self-center">
+                <i class="fa-solid fa-check"></i>
+              </div>
+              <div>
+                <p class="p-2 lead text-mutted align-self-end">
+                  Natural deodorant can be gantle to the skil
+                </p>
+              </div>
+            </div>
+            <div class="d-flex">
+              <div class="p-2 align-self-center">
+                <i class="fa-solid fa-check"></i>
+              </div>
+              <div>
+                <p class="p-2 lead text-mutted align-self-end">
+                  Natural deodorants match a healthy lifestyle
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 py-5 mt-4 d-block">
+            <img
+              src="/img/about.webp"
+              alt="products"
+              class="img-fluid rounded-circle"
+            />
+          </div>
         </div>
+      </div>
+    </section>
+    <footer id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center py-4">
+            <h3>Natural Dedorant</h3>
+            <p>
+              CopyRight &copy;
+              <span id="year"></span>
+            </p>
+            <button
+              class="btn btn-dark"
+              data-toggle="modal"
+              data-target="#contactModal"
+            >
+              Contact Us
+            </button>
+          </div>
+        </div>
+      </div>
     </footer>
     <!-- CONTACT MODAL -->
     <div class="modal fade text-dark" id="contactModal">
-        <div class="modal-dialog bg-white">
-            <div class="modal-contact">
-                <div class="modal-header">
-                    <h5 class="modal-title">
-                        Contact us
-                    </h5>
-                    <button class="close" data-dismiss="modal">
-                        <span>&times;</span>
-                    </button>
-                </div>
-                    <div class="modal-body bg-white">
-                        <form>
-                            <div class="form-group">
-                                <label for="name">Name</label>
-                                <input type="text" class="form-control"
-                                placeholder="Name">
-                            </div>
-                            <div class="form-group">
-                                <label for="email">Email</label>
-                                <input type="email" class="form-control"
-                                placeholder="Name">
-                            </div>
-                            <div class="form-group">
-                                <label for="name">Message</label>
-                                <textarea class="form-control"></textarea>
-                            </div>
-                        </form>
-                    </div>
-                    <div class="modal-footer">
-                        <button class="btn btn-secondary btn-block">Submit</button>
-                    </div>
-            </div>
+      <div class="modal-dialog bg-white">
+        <div class="modal-contact">
+          <div class="modal-header">
+            <h5 class="modal-title">Contact us</h5>
+            <button class="close" data-dismiss="modal">
+              <span>&times;</span>
+            </button>
+          </div>
+          <div class="modal-body bg-white">
+            <form>
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" placeholder="Name" />
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" placeholder="Name" />
+              </div>
+              <div class="form-group">
+                <label for="name">Message</label>
+                <textarea class="form-control"></textarea>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-secondary btn-block">Submit</button>
+          </div>
         </div>
       </div>
-      
-      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-       <script
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+    <script
       src="https://code.jquery.com/jquery-3.7.1.min.js"
       integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
-      crossorigin="anonymous"></script> 
-    
-      <script>
-        $('#year').text(new Date().getFullYear());
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
-        // <!-- init scrollspy -->
-        $('body').scrollspy({ target: '#main-nav' });
-        // smooth scroling
-        $('#main-nav a').on('click', function(event) {
-            if(this.hash !== ""){
-                event.preventDefault();
+    <!-- Local Bootstrap JS (Fallback) -->
+    <script src="js/bootstrap.bundle.min.js"></script>
 
-                const hash = this.hash;
+    <!-- Your Custom JavaScript File -->
+    <script src="js/script.js"></script>
+    <script>
+      $("#year").text(new Date().getFullYear());
 
-                $('html, body').animate({
-                    scrollTop: $(hash).offset().top
-                }, 800, function() {
-                    window.location.hash = hash;
-                });
+      // <!-- init scrollspy -->
+      $("body").scrollspy({ target: "#main-nav" });
+      // smooth scroling
+      $("#main-nav a").on("click", function (event) {
+        if (this.hash !== "") {
+          event.preventDefault();
+
+          const hash = this.hash;
+
+          $("html, body").animate(
+            {
+              scrollTop: $(hash).offset().top,
+            },
+            800,
+            function () {
+              window.location.hash = hash;
             }
-        })
-      </script>
-      
-</body>
+          );
+        }
+      });
+    </script>
+  </body>
 </html>

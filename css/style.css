@@ -7,6 +7,10 @@ body {
 .navbar {
   border-bottom: #4b9ac2 3px solid;
   opacity: 0.8;
+  padding: 10px 20px;
+}
+.nav-link {
+  font-size: 18px;
 }
 
 i {
